@@ -1,0 +1,64 @@
+name: Build and Sign APK
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies and tools
+        run: |
+          apt-get update && apt-get install -y \
+            openjdk-17-jdk \
+            wget \
+            zipalign \
+            apksigner \
+            unzip \
+            zip \
+            && apt-get clean
+
+          wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O apktool
+          wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.8.2.jar -O apktool.jar
+          chmod +x apktool
+          mv apktool /usr/local/bin/
+          mv apktool.jar /usr/local/bin/
+
+          java -version
+          apktool --version
+          zipalign -v
+          apksigner --version
+
+      - name: Write keystore file from secret
+        run: echo "${{ secrets.KEYSTORE }}" > build.keystore
+
+      - name: Build APK using apktool
+        run: apktool b ./ -o edulink-unsigned.apk
+
+      - name: Zipalign APK
+        run: zipalign -v 4 edulink-unsigned.apk edulink-aligned.apk
+
+      - name: Sign APK with apksigner
+        run: |
+          apksigner sign \
+            --ks build.keystore \
+            --ks-key-alias ${{ secrets.KEY_ALIAS }} \
+            --ks-pass pass:${{ secrets.KEYSTORE_PASSWORD }} \
+            --key-pass pass:${{ secrets.KEYSTORE_PASSWORD }} \
+            edulink-aligned.apk
+
+      - name: Verify APK signature
+        run: apksigner verify --verbose edulink-aligned.apk
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: edulink.apk
+          path: edulink-aligned.apk
