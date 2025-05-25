@@ -23,11 +23,24 @@
     const origCalculateChange = plugin.prototype._calculateChange;
     const VELOCITY_THRESHOLD = 0.2;
 
-    plugin.prototype._calculateChange = function (start, velocity, max, min, resistance) {
+    plugin.prototype._calculateChange = function (
+      start,
+      velocity,
+      max,
+      min,
+      resistance
+    ) {
       if (Math.abs(velocity) < VELOCITY_THRESHOLD) {
         return 0;
       }
-      return origCalculateChange.call(this, start, velocity, max, min, resistance);
+      return origCalculateChange.call(
+        this,
+        start,
+        velocity,
+        max,
+        min,
+        resistance
+      );
     };
 
     const origUpdate = plugin.prototype._update;
@@ -63,8 +76,97 @@
       console.log("🎯 VelocityTracker.track limited to x/y");
     }
 
-    console.log("✅ Applied Patches to ThrowPropsPlugin to resolve performance issues.");
+    console.log(
+      "✅ Applied Patches to ThrowPropsPlugin to resolve performance issues."
+    );
+
   };
 
   waitForGSDefine();
+})();
+
+(function monitorCanvasPerformance(threshold = 2) {
+  const ctxProto = CanvasRenderingContext2D.prototype;
+
+  const wrapMethod = (name) => {
+    const orig = ctxProto[name];
+    if (typeof orig !== "function") return;
+
+    ctxProto[name] = function (...args) {
+      const start = performance.now();
+      const result = orig.apply(this, args);
+      const duration = performance.now() - start;
+      if (duration > threshold) {
+        console.warn(`🎨 canvas.${name} took ${duration.toFixed(2)}ms`, { args });
+      }
+      return result;
+    };
+  };
+
+  const methodsToWrap = [
+    "fillRect",
+    "strokeRect",
+    "clearRect",
+    "fillText",
+    "strokeText",
+    "drawImage",
+    "putImageData",
+    "getImageData",
+    "fill",
+    "stroke",
+    "beginPath",
+    "arc",
+    "moveTo",
+    "lineTo",
+    "bezierCurveTo",
+    "quadraticCurveTo",
+  ];
+
+  methodsToWrap.forEach(wrapMethod);
+  console.log("🛠️ CanvasRenderingContext2D methods wrapped for performance monitoring.");
+})();
+
+(function monitorFrameRenderTime(threshold = 16) {
+  const origRAF = window.requestAnimationFrame;
+
+  window.requestAnimationFrame = function (callback) {
+    return origRAF.call(window, function (timestamp) {
+      const start = performance.now();
+      callback(timestamp);
+      const duration = performance.now() - start;
+      if (duration > threshold) {
+        console.warn(`🖼️ Frame render took ${duration.toFixed(2)}ms`);
+      }
+    });
+  };
+})();
+
+
+(function warnOnFrequentCanvasResize(threshold = 200) {
+  const resizeTimes = new Map();
+  const ctxProto = HTMLCanvasElement.prototype;
+
+  const setSize = (el, prop, val) => {
+    const now = performance.now();
+    const last = resizeTimes.get(el) || 0;
+    if (now - last < threshold) {
+      console.warn(`📏 Canvas ${prop} resized too often: ${now - last}ms apart`);
+    }
+    resizeTimes.set(el, now);
+    return val;
+  };
+
+  Object.defineProperty(ctxProto, "width", {
+    set(val) {
+      return setSize(this, "width", val);
+    },
+  });
+
+  Object.defineProperty(ctxProto, "height", {
+    set(val) {
+      return setSize(this, "height", val);
+    },
+  });
+
+  console.log("📐 Canvas resize monitoring enabled.");
 })();

@@ -3982,7 +3982,7 @@ textarea {
   }
 }
 div[ng-dropdown-multiselect] {
-  color: #404652;
+  color: white;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
@@ -6560,7 +6560,7 @@ select.f-default__select-mobile.ng-invalid.ng-dirty {
   position: relative;
 }
 .f-default__field-title {
-  color: #404652;
+  color: white;
   display: inline-block;
   font-size: 1.4rem;
   margin: 0 0 5px 5px;
@@ -6966,7 +6966,7 @@ select.f-default__select-mobile.ng-invalid.ng-dirty {
 .tablet .p-communicator .b-select-recipients .f-default__select-mobile,
 .tablet .p-events-forms .b-select-recipients .f-default__select-mobile {
   background: #fff;
-  color: #404652;
+  color: white;
   padding-left: 113px;
 }
 .tablet
@@ -8663,7 +8663,7 @@ label > * {
 }
 .clubs__empty {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 20px;
   height: 100%;
@@ -9178,7 +9178,7 @@ label > * {
     width: 100%;
   }
   .detentions__preview {
-    color: #404652;
+    color: white;
   }
   .detentions__preview-btn {
     background: linear-gradient(180deg, #66afd2, #7f99cb 50%);
@@ -9492,7 +9492,7 @@ label > * {
     padding: 0;
   }
   .events-forms__checkbox-title {
-    color: #404652;
+    color: white;
   }
   .events-forms__panel {
     display: flex;
@@ -9563,7 +9563,7 @@ label > * {
 }
 .exams__empty {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 20px;
   height: 100%;
@@ -9744,7 +9744,7 @@ label > * {
 }
 .homework__empty {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 20px;
   height: 100%;
@@ -9927,7 +9927,7 @@ label > * {
 }
 .p-marksheets__message {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 2rem;
   height: 100%;
@@ -10340,7 +10340,7 @@ a.parents-evening__close {
 }
 .p-registers__message {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 2rem;
   height: 100%;
@@ -10769,7 +10769,7 @@ student {
   background-color: rgb(24, 26, 27);
   border-radius: 4px;
   box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.35);
-  color: #404652;
+  color: white;
   left: 0;
   min-width: 70px;
   opacity: 0;
@@ -10994,7 +10994,7 @@ student {
 }
 .attendance__calendar .select-default.selectize-control .selectize-input {
   border: none;
-  color: #404652;
+  color: white;
   font-weight: 700;
   min-width: 85px;
   padding: 17px 10px 13px;
@@ -11022,7 +11022,7 @@ student {
 .tablet .attendance__select-mobile {
   background: transparent;
   border: none;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 700;
   height: 50px;
@@ -11716,7 +11716,7 @@ behaviour .container {
 }
 .medical-tests__empty {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 20px;
   height: 100%;
@@ -11991,7 +11991,7 @@ behaviour .container {
 }
 .RKGKQ_V5ryVwAZSqWyhW.POxI0ILy0UE0UouPbP3n.YBmXvVu_BWF0kBlXGCPx {
   border-color: #e3e9ea;
-  color: #404652;
+  color: white;
 }
 .RKGKQ_V5ryVwAZSqWyhW.POxI0ILy0UE0UouPbP3n._2m1Q8v8BHvlr5aCPxQM7 {
   border-color: #3090c7;
@@ -12070,7 +12070,7 @@ behaviour .container {
 }
 .EgLSrjCQzME5ms5SiY6e {
   word-wrap: break-word;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   max-width: 100%;
 }
@@ -12086,7 +12086,7 @@ behaviour .container {
     align-self: flex-start;
     display: block;
     word-wrap: break-word;
-    color: #404652;
+    color: white;
     font-size: 1.4rem;
     font-weight: 500;
     width: 40%;
@@ -12560,7 +12560,7 @@ behaviour .container {
   margin-bottom: 20px;
 }
 .OhrTtnVaVNsns2h_qmly {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   margin-bottom: 5px;
   text-align: center;
@@ -12576,7 +12576,7 @@ behaviour .container {
   font-size: 1.4rem;
 }
 .VjEjL2y_5MqwYHkn9_i6 {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
 }
 .VjEjL2y_5MqwYHkn9_i6:after {
@@ -12633,7 +12633,7 @@ behaviour .container {
 .bz7FPQG1zpcPb7sS9RBi {
   align-items: center;
   background-color: hsla(0, 0%, 100%, 0.4);
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.4rem;
   font-weight: 500;
@@ -12693,7 +12693,7 @@ behaviour .container {
 }
 .A4FukPsbAmvEPrhFnq4u.jwtBQakBLEIzNicOHL2x.zLpU5u9bAsLCJ01tJqzQ {
   border-color: #e3e9ea;
-  color: #404652;
+  color: white;
 }
 .A4FukPsbAmvEPrhFnq4u.jwtBQakBLEIzNicOHL2x.CksmuXEZk4vpUeZnwBps {
   border-color: #3090c7;
@@ -12915,7 +12915,7 @@ div.select__single-value {
 }
 div.select__input,
 div.select__single-value {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
 }
 div.select__placeholder {
@@ -12978,7 +12978,7 @@ div.select__menu-list::-webkit-scrollbar-track {
 }
 div.select__menu-notice,
 div.select__option {
-  color: #404652;
+  color: white;
   font-size: 1.3rem;
 }
 div.select__option {
@@ -13867,7 +13867,7 @@ div.select__option {
   background-color: rgb(24, 26, 27);
   border: 1px solid #e3e9ea;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 36px 0 20px;
@@ -14540,7 +14540,7 @@ div.select__option {
   background-color: rgb(24, 26, 27);
   border: 1px solid #e3e9ea;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 20px;
@@ -14583,7 +14583,7 @@ div.select__option {
   background-color: rgb(24, 26, 27);
   border: 1px solid #e3e9ea;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 20px;
@@ -14630,7 +14630,7 @@ div.select__option {
   position: relative;
 }
 .mQImEbYOHSng72bCQOBC {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   left: 0;
   overflow: hidden;
@@ -14758,7 +14758,7 @@ div.select__option {
 }
 .eOkeOL1h6XAsAPraJpc_ {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 2rem;
   height: 100%;
@@ -14945,7 +14945,7 @@ div.select__option {
   background: #4e1530;
 }
 .b-analytics__select-mobile.f-default__select-mobile {
-  color: #404652;
+  color: white;
   height: 40px;
   padding: 0 30px 0 15px;
 }
@@ -15015,7 +15015,7 @@ div.select__option {
     background-color: rgb(24, 26, 27);
   }
   .b-analytics__label {
-    color: #404652;
+    color: white;
   }
   .b-analytics__select-mobile.f-default__select-mobile {
     border-radius: 5px;
@@ -15053,7 +15053,7 @@ div.select__option {
   margin-left: 8px;
 }
 .b-analytics-chart__additional-info-caption-btn:hover {
-  color: #404652;
+  color: white;
 }
 .b-analytics-chart__additional-info-caption-btn.btn-close {
   height: 20px;
@@ -15129,7 +15129,7 @@ div.select__option {
   background-color: rgb(24, 26, 27);
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  color: #404652;
+  color: white;
   font-size: 1.2rem;
   margin-top: 16px;
   padding: 8px;
@@ -15163,7 +15163,7 @@ div.select__option {
   height: 100%;
 }
 .b-analytics-overview__message {
-  color: #404652;
+  color: white;
   font-size: 1.8rem;
   font-weight: 600;
   padding: 30px 15px;
@@ -15387,7 +15387,7 @@ div.select__option {
   white-space: nowrap;
 }
 .b-analytics-overview-filters__select-mobile.f-default__select-mobile {
-  color: #404652;
+  color: white;
   height: 40px;
   padding: 0 30px 0 15px;
 }
@@ -15507,7 +15507,7 @@ div.select__option {
 @media only screen and (max-width: 740px) {
   .b-analytics-overview-filters__label,
   .b-analytics-overview-filters__learners-label {
-    color: #404652;
+    color: white;
   }
   .b-analytics-overview-filters__row._bottom {
     margin-top: 8px;
@@ -15516,7 +15516,7 @@ div.select__option {
     background-color: rgb(24, 26, 27);
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    color: #404652;
+    color: white;
     display: none;
     opacity: 1;
     pointer-events: auto;
@@ -15530,7 +15530,7 @@ div.select__option {
   .b-analytics-overview-filters__filters-btn._round {
     background-color: rgb(24, 26, 27);
     border: 1px solid #c8cdd4;
-    color: #404652;
+    color: white;
   }
   .b-analytics-overview-filters__filters-btn._round svg {
     fill: rgba(64, 70, 82, 0.5);
@@ -15545,7 +15545,7 @@ div.select__option {
     fill: #404652;
   }
   .b-analytics-overview-filters__table-row {
-    color: #404652;
+    color: white;
   }
   .b-analytics-overview-filters__select-mobile.f-default__select-mobile {
     border-radius: 5px;
@@ -15558,7 +15558,7 @@ div.select__option {
   .b-analytics-overview-filters div[ng-dropdown-multiselect] .btn-default {
     background-color: rgb(24, 26, 27);
     border: 1px solid #c8cdd4;
-    color: #404652;
+    color: white;
   }
   .b-analytics-overview-filters__radio-text:before {
     border-color: #aaa;
@@ -15584,7 +15584,7 @@ div.select__option {
   background: transparent;
 }
 .b-analytics-table__body {
-  color: #404652;
+  color: white;
   display: grid;
   font-size: 1.4rem;
   grid-template-columns: minmax(100px, 2fr) repeat(5, minmax(80px, 1fr));
@@ -15988,7 +15988,7 @@ b-behaviour {
   }
 }
 .b-breadcrumbs {
-  color: #404652;
+  color: white;
   font-weight: 600;
   word-wrap: break-word;
 }
@@ -16170,7 +16170,7 @@ mwl-calendar {
   margin-bottom: 20px;
 }
 .b-callout-overview__item-title {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 8px;
@@ -16183,14 +16183,14 @@ mwl-calendar {
   padding: 20px 15px 15px;
 }
 .b-changes__date {
-  color: #404652;
+  color: white;
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 10px;
   text-align: center;
 }
 .b-changes__title {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
@@ -16234,7 +16234,7 @@ b-chart {
 }
 .b-checkbox {
   align-items: center;
-  color: #404652;
+  color: white;
   cursor: pointer;
   display: inline-flex;
   font-size: 1.4rem;
@@ -16287,7 +16287,7 @@ b-chart {
   text-align: left;
 }
 .b-child-protection__field-title {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   margin-left: 0;
@@ -16312,7 +16312,7 @@ b-chart {
 }
 .b-child-protection__checkbox-title {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.6rem;
   font-weight: 500;
@@ -16351,7 +16351,7 @@ b-chart {
 }
 .b-child-protection-title {
   align-items: center;
-  color: #404652;
+  color: white;
   display: inline-flex;
   font-size: 1.6rem;
   font-weight: 500;
@@ -16395,7 +16395,7 @@ b-chart {
   display: flex;
 }
 .b-child-protection__label {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 30px;
@@ -16403,7 +16403,7 @@ b-chart {
   min-width: 100px;
 }
 .b-child-protection__text {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   margin-right: 5px;
 }
@@ -16453,7 +16453,7 @@ b-chart {
   height: 100%;
 }
 .b-club-attendance-overview__message {
-  color: #404652;
+  color: white;
   font-size: 1.8rem;
   font-weight: 600;
   padding: 30px 10px;
@@ -16548,7 +16548,7 @@ b-chart {
 }
 @media only screen and (max-width: 740px) {
   .b-club-attendance-overview-filters__learners-label {
-    color: #404652;
+    color: white;
   }
 }
 .b-club-details {
@@ -16588,19 +16588,19 @@ b-chart {
   line-height: 30px;
 }
 .b-club-details__title {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 10px;
 }
 .b-club-details__name {
-  color: #404652;
+  color: white;
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
 }
 .b-club-details__description {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
 }
 .b-club-details__btn {
@@ -16812,10 +16812,10 @@ b-create-form {
   padding: 0 15px;
 }
 .b-create-form__right .b-create-form__input::-moz-placeholder {
-  color: #404652;
+  color: white;
 }
 .b-create-form__right .b-create-form__input::placeholder {
-  color: #404652;
+  color: white;
 }
 .b-create-form__row {
   margin-bottom: 10px;
@@ -16951,7 +16951,7 @@ b-create-form {
   position: relative;
 }
 .b-create-form__add {
-  color: #404652;
+  color: white;
   font-size: 1.2rem;
   font-weight: 700;
   height: 40px;
@@ -16987,7 +16987,7 @@ b-create-form {
   background: #f8fafb;
   border: 1px solid #e3e9ea;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.4rem;
   overflow: hidden;
@@ -17030,7 +17030,7 @@ b-create-form {
 }
 .b-create-form__checkbox-title {
   align-items: center;
-  color: #404652;
+  color: white;
   display: inline-flex;
   font-size: 1.4rem;
   position: relative;
@@ -17125,7 +17125,7 @@ b-create-form {
     width: 100%;
   }
   .b-create-form__label {
-    color: #404652;
+    color: white;
   }
   .b-create-form__label[float-label] {
     color: #99a5b4;
@@ -17236,7 +17236,7 @@ b-date-range-select {
 .b-date-time-select__input {
   background: #f9f9f9;
   border: 1px solid #b8b8b8;
-  color: #404652;
+  color: white;
   height: 40px;
   padding: 0 35px 0 15px;
   width: 100%;
@@ -17326,7 +17326,7 @@ b-demo-info {
   top: 0;
 }
 .b-document__name {
-  color: #404652;
+  color: white;
   font-size: 14px;
   text-align: center;
 }
@@ -17353,7 +17353,7 @@ b-demo-info {
   height: 100%;
 }
 .b-document-access__message {
-  color: #404652;
+  color: white;
   font-size: 1.8rem;
   font-weight: 600;
   padding: 30px 10px;
@@ -17445,7 +17445,7 @@ b-demo-info {
   background: #4e1530;
 }
 .b-document-access-filters__select-mobile.f-default__select-mobile {
-  color: #404652;
+  color: white;
   height: 40px;
   padding: 0 30px 0 15px;
 }
@@ -17546,25 +17546,25 @@ b-demo-info {
     background-color: rgb(24, 26, 27);
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    color: #404652;
+    color: white;
     padding: 5px 0 0 10px;
   }
   .b-document-access-filters__learners-label {
-    color: #404652;
+    color: white;
   }
   .b-document-access-filters__input {
     background-color: rgb(24, 26, 27);
     border: 1px solid #c8cdd4;
-    color: #404652;
+    color: white;
   }
   .b-document-access-filters__input::-moz-placeholder {
-    color: #404652;
+    color: white;
   }
   .b-document-access-filters__input::placeholder {
-    color: #404652;
+    color: white;
   }
   .b-document-access-filters__label[float-label] {
-    color: #404652;
+    color: white;
   }
   .b-document-access-filters__radio-text:before {
     border-color: #aaa;
@@ -17789,7 +17789,7 @@ b-demo-info {
   background: #fff;
   border: 1px solid #e3e9ea;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   display: block;
   height: 40px;
   position: relative;
@@ -17888,7 +17888,7 @@ b-event-details {
   text-align: center;
 }
 .b-event-details__label {
-  color: #404652;
+  color: white;
   font-size: 1.5rem;
   font-weight: 500;
   margin-right: 8px;
@@ -17915,7 +17915,7 @@ b-event-details {
   flex-shrink: 0;
 }
 .b-event-details__text {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.5rem;
   font-weight: 500;
@@ -17997,7 +17997,7 @@ b-event-details {
   margin-right: 10px;
 }
 .b-event-details__btn._add div {
-  color: #404652;
+  color: white;
   display: inline-block;
   font-size: 1.5rem;
   font-weight: 500;
@@ -18171,7 +18171,7 @@ b-event-details {
   width: 30px;
 }
 .b-folder__name {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   text-align: center;
   word-wrap: break-word;
@@ -18260,7 +18260,7 @@ b-event-details {
 }
 @media only screen and (max-width: 740px) {
   .b-from-to-dates__label {
-    color: #404652;
+    color: white;
   }
 }
 .b-graph {
@@ -18289,7 +18289,7 @@ b-event-details {
   width: 100%;
 }
 .b-graph__alias {
-  color: #404652;
+  color: white;
   flex-shrink: 0;
   font-size: 1.4rem;
   font-weight: 500;
@@ -18317,7 +18317,7 @@ b-event-details {
 }
 .b-graph__empty {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.6rem;
   font-weight: 500;
@@ -18392,7 +18392,7 @@ b-event-details {
   justify-content: flex-end;
 }
 .b-homework-analytics__item-title {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 25px;
@@ -18436,7 +18436,7 @@ b-event-details {
   padding: 10px 10px 0;
 }
 .b-homework-detail__row {
-  color: #404652;
+  color: white;
   font-size: 14px;
   margin-bottom: 5px;
   text-align: left;
@@ -18449,7 +18449,7 @@ b-event-details {
   justify-content: center;
 }
 .b-homework-detail__row._center {
-  color: #404652;
+  color: white;
   font-size: 16px;
   text-align: center;
 }
@@ -18507,7 +18507,7 @@ b-event-details {
 }
 .b-homework-detail__btn-download-message {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.4rem;
   font-weight: 500;
@@ -18563,7 +18563,7 @@ b-event-details {
   table-layout: fixed;
 }
 .b-i-calendars__title {
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 2rem;
   font-weight: 500;
@@ -18591,7 +18591,7 @@ b-event-details {
   padding: 15px;
 }
 .b-i-calendars__label {
-  color: #404652;
+  color: white;
   font-size: 1.8rem;
   font-weight: 500;
   padding: 15px 15px 10px 10px;
@@ -19130,7 +19130,7 @@ b-mailbox {
   width: 100%;
 }
 .b-mailbox__pagination-btn {
-  color: #404652;
+  color: white;
   font-size: 1.2rem;
   padding: 8px 16px;
   text-decoration: none;
@@ -19242,7 +19242,7 @@ b-mailbox {
     width: 100%;
   }
   .b-mailbox__checkbox-title {
-    color: #404652;
+    color: white;
   }
   .b-mailbox__messages {
     padding-bottom: 43px;
@@ -19294,7 +19294,7 @@ b-mailbox {
   z-index: 2;
 }
 .b-manage-folders__settings-popup-item {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 600;
   padding: 8px 10px;
@@ -19342,7 +19342,7 @@ b-mailbox {
   text-align: left;
 }
 .b-manage-statuses__field-title {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   margin-left: 0;
@@ -19386,7 +19386,7 @@ b-mailbox {
   display: flex;
 }
 .b-manage-statuses__label {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 0;
@@ -19664,7 +19664,7 @@ b-marksheets-learners-info {
   grid-area: gtHeader;
 }
 .b-medical-info__gtable-body {
-  color: #404652;
+  color: white;
   grid-area: gtBody;
 }
 .b-medical-info__medical-condition {
@@ -19724,7 +19724,7 @@ b-marksheets-learners-info {
   padding: 12px 16px;
 }
 .b-medical-info__consent {
-  color: #404652;
+  color: white;
   font-size: 1.5rem;
   padding: 0 20px;
 }
@@ -19796,7 +19796,7 @@ b-marksheets-learners-info {
   background-color: #f8fafb;
 }
 .b-medical-info__col {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   padding: 0 20px;
 }
@@ -20079,7 +20079,7 @@ b-marksheets-learners-info {
   align-items: baseline;
   background: none;
   border-left: 0;
-  color: #404652;
+  color: white;
   height: auto;
   margin-right: 0;
 }
@@ -20551,7 +20551,7 @@ b-profiles-teacher-info {
   background-color: #8ac16c;
 }
 .b-recipients-select__control-item._active .b-recipients-select__data-inner {
-  color: #404652;
+  color: white;
 }
 .b-recipients-select__control-item._active svg {
   fill: #fff;
@@ -21161,7 +21161,7 @@ b-profiles-teacher-info {
   width: 250px;
 }
 .b-report__label {
-  color: #404652;
+  color: white;
   display: inline-block;
   font-size: 1.4rem;
   font-weight: 500;
@@ -21173,13 +21173,13 @@ b-profiles-teacher-info {
 .b-report .b-date-time-select__input {
   background-color: #f8fafb;
   border-color: #e3e9ea;
-  color: #404652;
+  color: white;
 }
 .b-report .b-date-time-select__input::-moz-placeholder {
-  color: #404652;
+  color: white;
 }
 .b-report .b-date-time-select__input::placeholder {
-  color: #404652;
+  color: white;
 }
 .b-report t-bookings-report {
   flex-grow: 1;
@@ -21199,7 +21199,7 @@ b-profiles-teacher-info {
   display: block;
 }
 .b-report-card__learner {
-  color: #404652;
+  color: white;
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 15px;
@@ -21213,7 +21213,7 @@ b-profiles-teacher-info {
   width: 200px;
 }
 .b-report-card__nav-text {
-  color: #404652;
+  color: white;
   padding: 0 10px;
 }
 .b-report-card__nav-btn {
@@ -21245,7 +21245,7 @@ b-profiles-teacher-info {
   margin-bottom: 15px;
 }
 .b-report-card__info-item {
-  color: #404652;
+  color: white;
   flex-grow: 1;
   font-weight: 500;
   padding: 0 5px;
@@ -21253,7 +21253,7 @@ b-profiles-teacher-info {
   width: 0;
 }
 .b-report-card__comment {
-  color: #404652;
+  color: white;
   font-weight: 500;
   margin-bottom: 15px;
   text-align: center;
@@ -21391,7 +21391,7 @@ b-resource-booking {
 }
 .b-resource-booking-select-date {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.7rem;
   justify-content: center;
@@ -21415,7 +21415,7 @@ b-resource-booking {
 }
 @media only screen and (max-width: 740px) {
   .b-resource-booking-select-date {
-    color: #404652;
+    color: white;
   }
   .b-resource-booking-select-date__button._prev {
     border-color: transparent #404652 transparent transparent;
@@ -21663,7 +21663,7 @@ b-seating-plan-key {
   width: 45px;
 }
 .b-seating-plan-key__name {
-  color: #404652;
+  color: white;
   font-size: 1.2rem;
   padding: 4px 0;
   text-align: center;
@@ -21770,7 +21770,7 @@ label.b-select-event-source__label[disabled] {
   padding: 5px 0;
 }
 span.b-select-event-source__text {
-  color: #404652;
+  color: white;
   text-align: left;
 }
 span.b-select-event-source__text:before {
@@ -22295,7 +22295,7 @@ span.b-select-event-source__text:after {
 }
 .b-select-resource-reservation-date {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.7rem;
   justify-content: center;
@@ -22769,7 +22769,7 @@ span.b-select-event-source__text:after {
   text-align: center;
 }
 .b-sen-info__message {
-  color: #404652;
+  color: white;
   font-size: 20px;
   padding: 30px 0;
   text-align: center;
@@ -22890,7 +22890,7 @@ span.b-select-event-source__text:after {
   background-color: #f8fafb;
 }
 .b-sen-info__col {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   padding: 0 20px;
 }
@@ -23076,7 +23076,7 @@ b-show-message {
 }
 .b-show-message__item._message {
   border-top: 1px solid #e3e9ea;
-  color: #404652;
+  color: white;
   flex-grow: 1;
   font-size: 1.4rem;
   overflow-y: auto;
@@ -23123,7 +23123,7 @@ b-show-message {
   margin-right: 5px;
 }
 .b-show-message__name {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
 }
@@ -23161,7 +23161,7 @@ b-show-message {
 }
 .b-show-message__attachment-downloading {
   bottom: 0;
-  color: #404652;
+  color: white;
   left: 0;
   opacity: 0;
   position: absolute;
@@ -23189,7 +23189,7 @@ b-show-message {
   width: calc(100% - 120px);
 }
 .b-show-message__recipients-list {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   overflow: hidden;
@@ -23197,7 +23197,7 @@ b-show-message {
   white-space: nowrap;
 }
 .b-show-message__recipients-number {
-  color: #404652;
+  color: white;
   cursor: pointer;
   flex-shrink: 0;
   font-size: 1.6rem;
@@ -23509,7 +23509,7 @@ b-student-search {
   margin-left: 15px;
 }
 .b-student-search__name {
-  color: #404652;
+  color: white;
   font-size: 17px;
   font-weight: 500;
 }
@@ -23526,7 +23526,7 @@ b-student-search {
 }
 .b-student-search__achievement,
 .b-student-search__behaviour {
-  color: #404652;
+  color: white;
   font-size: 20px;
   font-weight: 400;
   text-align: center;
@@ -23907,7 +23907,7 @@ b-student-summary {
     cursor: pointer;
   }
   .l-student-summary__item:last-child .b-student-summary {
-    border-bottom: 0;
+    border-bottom: none;
   }
   ._action .b-student-summary__data,
   ._date .b-student-summary__data {
@@ -23917,7 +23917,6 @@ b-student-summary {
   }
   ._action .b-student-summary__data:after,
   ._date .b-student-summary__data:after {
-    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #fff);
     content: "";
     display: block;
     height: 100%;
@@ -23956,7 +23955,7 @@ b-student-summary {
   }
   .b-student-summary._detentions .b-student-summary__data,
   .b-student-summary._report .b-student-summary__data {
-    color: #404652;
+    color: white;
     font-size: 17px;
     margin-bottom: 10px;
   }
@@ -23986,7 +23985,7 @@ b-student-summary {
   }
   .p-behaviour._summary-achievement-points .b-student-summary__data,
   .p-behaviour._summary-behaviour-points .b-student-summary__data {
-    color: #404652;
+    color: white;
     font-size: 20px;
   }
   .p-behaviour._summary-achievement-points .b-student-summary__data._gray,
@@ -24058,14 +24057,14 @@ b-student-summary {
   font-weight: 500;
 }
 .b-student-summary-full__data {
-  color: #404652;
+  color: white;
   font-size: 20px;
 }
 .b-student-summary-title {
   text-align: center;
 }
 .b-student-summary-title__title {
-  color: #404652;
+  color: white;
   font-size: 20px;
   padding: 5px 0;
 }
@@ -24184,7 +24183,7 @@ b-student-summary {
   .p-contact._contact .b-student-title__title,
   .p-student._account .b-student-title__title,
   .p-student._contact .b-student-title__title {
-    color: #404652;
+    color: white;
     font-size: 22px;
   }
 }
@@ -24418,7 +24417,7 @@ b-tabs {
   padding: 5px 0;
 }
 .b-tabs__warning {
-  color: #404652;
+  color: white;
   font-size: 20px;
   left: 0;
   padding: 30px 0;
@@ -24841,7 +24840,7 @@ b-tabs-subgrid {
   transform: rotate(90deg);
 }
 .b-teaching-groups__name {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   min-width: 0;
   overflow-wrap: break-word;
@@ -25577,7 +25576,7 @@ b-video-call {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   padding: 15px;
   width: 100%;
@@ -25593,7 +25592,7 @@ b-video-call {
 .f-add-address__input {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -25620,14 +25619,14 @@ b-video-call {
 .tablet .f-add-address__select-mobile {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
-  color: #404652;
+  color: white;
   height: 40px;
   padding-left: 15px;
 }
 .f-add-address__loader {
   align-items: center;
   background-color: hsla(0, 0%, 100%, 0.7);
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.8rem;
   font-weight: 500;
@@ -25743,7 +25742,7 @@ b-video-call {
 }
 .f-add-booking-period__period {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   justify-content: space-between;
 }
@@ -25880,7 +25879,7 @@ b-video-call {
   text-align: left;
 }
 .f-add-referral__field-title {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   margin-left: 0;
@@ -25920,7 +25919,7 @@ b-video-call {
 }
 .f-add-referral__checkbox-title {
   align-items: center;
-  color: #404652;
+  color: white;
   display: inline-flex;
   font-size: 1.6rem;
   font-weight: 500;
@@ -25965,7 +25964,7 @@ b-video-call {
   display: flex;
 }
 .f-add-referral__label {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 30px;
@@ -25975,7 +25974,7 @@ b-video-call {
   min-width: 80px;
 }
 .f-add-referral__text {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   margin-right: 5px;
 }
@@ -25990,7 +25989,7 @@ b-video-call {
 .tablet .f-add-referral .f-default__select-mobile {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
-  color: #404652;
+  color: white;
 }
 .tablet .f-add-referral .f-default__select-mobile-wrap:after {
   border-top-color: currentColor;
@@ -26079,7 +26078,7 @@ b-video-call {
   display: flex;
 }
 .f-add-strategy__label {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 30px;
@@ -26130,7 +26129,7 @@ b-video-call {
   padding: 15px;
 }
 .f-add-resource .b-checkbox {
-  color: #404652;
+  color: white;
   display: inline-flex;
   font-weight: 400;
   padding: 4px 2px;
@@ -26239,7 +26238,7 @@ b-video-call {
   text-align: left;
 }
 .f-add-car__label {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.4rem;
   margin-bottom: 7px;
@@ -26248,7 +26247,7 @@ b-video-call {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -26299,7 +26298,7 @@ b-video-call {
   padding: 15px;
 }
 .f-add-contacts__title {
-  color: #404652;
+  color: white;
   font-size: 1.8rem;
   font-weight: 500;
 }
@@ -26340,14 +26339,14 @@ b-video-call {
 }
 .f-add-contacts__field-title {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
 }
 .f-add-contacts__input {
   background: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -26374,7 +26373,7 @@ b-video-call {
 .tablet .f-add-contacts .f-default__select-mobile {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
-  color: #404652;
+  color: white;
   height: 40px;
 }
 .tablet .f-add-contacts .f-default__select-mobile-wrap:after {
@@ -26403,7 +26402,7 @@ b-video-call {
 .f-add-group__input {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -26424,7 +26423,7 @@ b-video-call {
   vertical-align: middle;
 }
 .f-add-group__label span {
-  color: #404652;
+  color: white;
   pointer-events: none;
   position: relative;
 }
@@ -27514,7 +27513,7 @@ f-add-teachers {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -27635,7 +27634,7 @@ f-add-teachers {
   fill: currentColor;
 }
 .f-club-register__name {
-  color: #404652;
+  color: white;
   flex: 1 1;
   font-size: 1.6rem;
   min-width: 120px;
@@ -27709,7 +27708,7 @@ f-add-teachers {
   z-index: 1;
 }
 .f-club-register__learner-name {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
 }
@@ -27887,7 +27886,7 @@ f-add-teachers {
     width: 120px;
   }
   .f-club-register__teacher-name {
-    color: #404652;
+    color: white;
   }
   .f-club-register__btn-submit.btn {
     background: linear-gradient(180deg, #66afd2, #7f99cb 50%);
@@ -27961,12 +27960,12 @@ f-add-teachers {
   background: transparent;
 }
 .f-collection-update__category {
-  color: #404652;
+  color: white;
   font-size: 2rem;
   margin-bottom: 10px;
 }
 .f-collection-update__info span {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.4rem;
   margin-bottom: 10px;
@@ -27980,7 +27979,7 @@ f-add-teachers {
   margin-bottom: 7px;
 }
 .f-collection-update__field-name {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
 }
 .f-collection-update__field-content._meal
@@ -28000,7 +27999,7 @@ f-add-teachers {
   width: calc(100% - 90px);
 }
 .f-collection-update__day {
-  color: #404652;
+  color: white;
   flex-basis: 90px;
   font-size: 1.4rem;
   max-width: 90px;
@@ -28039,7 +28038,7 @@ f-add-teachers {
 .f-collection-update__input {
   border: 1px solid #ddd;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 14px;
   height: 40px;
   margin: 5px 1px 3px 0;
@@ -28125,7 +28124,7 @@ f-add-teachers {
   line-height: 1.2;
 }
 .f-collection-update__protection {
-  color: #404652;
+  color: white;
   font-size: 1rem;
   margin-right: 10px;
 }
@@ -28177,7 +28176,7 @@ f-add-teachers {
 .f-collection-update .btn-default:hover {
   background-color: #f9f9f9;
   border-color: #b8b8b8;
-  color: #404652;
+  color: white;
 }
 .f-collection-update .dropdown-toggle.btn {
   background-color: rgb(24, 26, 27);
@@ -28189,7 +28188,7 @@ f-add-teachers {
 .tablet .f-collection-update__select-mobile {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
-  color: #404652;
+  color: white;
   height: 40px;
   padding-left: 15px;
 }
@@ -28288,7 +28287,7 @@ f-add-teachers {
   justify-content: space-between;
 }
 .f-comment-bank__body-title {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
 }
 .f-comment-bank__footer {
@@ -28345,12 +28344,12 @@ f-add-teachers {
   padding: 19px 10px 10px;
 }
 .f-confirm-registers__title {
-  color: #404652;
+  color: white;
   font-size: 18px;
   font-weight: 500;
 }
 .f-confirm-registers__subtitle {
-  color: #404652;
+  color: white;
   font-size: 16px;
   margin-bottom: 30px;
 }
@@ -28432,7 +28431,7 @@ f-add-teachers {
   fill: red;
 }
 .f-confirm-registers__student-details-text {
-  color: #404652;
+  color: white;
   flex: auto;
   font-weight: 300;
   min-width: 0;
@@ -28519,7 +28518,7 @@ f-add-teachers {
   }
 }
 .f-create-employee-group__label {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.4rem;
   margin-bottom: 7px;
@@ -28541,7 +28540,7 @@ f-add-teachers {
   vertical-align: middle;
 }
 .f-create-employee-group__checkbox-label span {
-  color: #404652;
+  color: white;
   pointer-events: none;
   position: relative;
 }
@@ -28579,7 +28578,7 @@ f-add-teachers {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -28662,7 +28661,7 @@ f-add-teachers {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -28699,7 +28698,7 @@ f-add-teachers {
   text-align: left;
 }
 .f-create-folder__label {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.4rem;
   margin-bottom: 7px;
@@ -28708,7 +28707,7 @@ f-add-teachers {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -28718,7 +28717,7 @@ f-add-teachers {
   padding: 10px 0;
 }
 .f-create-group__label {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.4rem;
   margin-bottom: 7px;
@@ -28727,7 +28726,7 @@ f-add-teachers {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -28758,7 +28757,7 @@ f-add-teachers {
   vertical-align: middle;
 }
 .f-create-group__checkbox-label span {
-  color: #404652;
+  color: white;
   pointer-events: none;
   position: relative;
 }
@@ -28858,13 +28857,13 @@ f-add-teachers {
   margin-bottom: 0;
 }
 .f-create-template__title {
-  color: #404652;
+  color: white;
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
 }
 .f-create-template__label {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.4rem;
   margin-bottom: 5px;
@@ -28890,7 +28889,7 @@ f-add-teachers {
 }
 .f-create-template__checkbox-title {
   align-items: center;
-  color: #404652;
+  color: white;
   display: inline-flex;
   font-size: 1.4rem;
   position: relative;
@@ -30193,12 +30192,12 @@ f-learner-detention {
   padding: 25px;
 }
 .f-confirm-message__title {
-  color: #404652;
+  color: white;
   font-size: 2rem;
   margin-bottom: 25px;
 }
 .f-confirm-message__text {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
 }
 .f-confirm-message__button {
@@ -30606,7 +30605,7 @@ f-learner-detention {
   .desktop .f-login__child:hover .f-login__name,
   .f-login__child._active .f-login__name,
   .f-login__child:hover .f-login__name {
-    color: #404652;
+    color: white;
   }
   .desktop .f-login__child:hover .f-login__avatar,
   .f-login__child._active .f-login__avatar,
@@ -30639,7 +30638,7 @@ f-learner-detention {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 50px;
   padding: 0 15px;
@@ -30659,7 +30658,7 @@ f-learner-detention {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -30878,7 +30877,7 @@ f-learner-detention {
     width: 100%;
   }
   .f-manage-club__title {
-    color: #404652;
+    color: white;
   }
   .f-manage-club__input {
     background: #fff;
@@ -30915,7 +30914,7 @@ f-learner-detention {
   background: #fff;
   border: 1px solid #e3e9ea;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   padding: 0 15px;
   width: 100%;
@@ -30927,7 +30926,7 @@ f-learner-detention {
 }
 .f-message-options__select-mobile {
   border-color: #e3e9ea;
-  color: #404652;
+  color: white;
 }
 .f-message-options .selectize-control {
   width: 100%;
@@ -30943,25 +30942,25 @@ f-learner-detention {
 .tablet select.f-message-options__select-mobile.f-default__select-mobile {
   background-color: rgb(24, 26, 27);
   border-color: #e3e9ea;
-  color: #404652;
+  color: white;
   padding-left: 10px;
 }
 .f-message-options__date label {
-  color: #404652;
+  color: white;
   text-align: start;
 }
 .f-message-options__date input {
   background: #fff;
   border-color: #e3e9ea;
-  color: #404652;
+  color: white;
   height: 40px;
   padding: 0 40px 0 20px;
 }
 .f-message-options__date input::-moz-placeholder {
-  color: #404652;
+  color: white;
 }
 .f-message-options__date input::placeholder {
-  color: #404652;
+  color: white;
 }
 .f-message-options__date .svg-calendar-small {
   fill: grey;
@@ -30977,12 +30976,12 @@ f-learner-detention {
   margin-bottom: -10px;
 }
 .f-notice__title {
-  color: #404652;
+  color: white;
   font-size: 1.8rem;
   text-align: center;
 }
 .f-notice__message {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   text-align: center;
 }
@@ -31072,19 +31071,19 @@ f-profiles-entry {
   margin-bottom: 0;
 }
 .f-quiz__name {
-  color: #404652;
+  color: white;
   font-size: 2rem;
   font-weight: 500;
   line-height: 1;
   text-align: center;
 }
 .f-quiz__subheading {
-  color: #404652;
+  color: white;
   font-size: 1.8rem;
   font-weight: 500;
 }
 .f-quiz__paragraph {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
 }
 .f-quiz__input {
@@ -31139,10 +31138,10 @@ select.f-quiz__select-mobile {
   background: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
 }
 .tablet select.f-quiz__select-mobile {
-  color: #404652;
+  color: white;
   height: 40px;
 }
 .f-rename-folder {
@@ -31150,7 +31149,7 @@ select.f-quiz__select-mobile {
   text-align: left;
 }
 .f-rename-folder__label {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.4rem;
   margin-bottom: 7px;
@@ -31159,7 +31158,7 @@ select.f-quiz__select-mobile {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -31214,7 +31213,7 @@ select.f-quiz__select-mobile {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -31411,7 +31410,7 @@ f-resource-booking {
     height: 330px;
   }
   .f-resource-booking__label {
-    color: #404652;
+    color: white;
   }
   .f-resource-booking__date,
   .f-resource-booking__input {
@@ -31433,7 +31432,7 @@ f-resource-booking {
   .f-resource-booking__button {
     background-color: rgb(24, 26, 27);
     border: 1px solid #c4cbd3;
-    color: #404652;
+    color: white;
     height: 40px;
   }
   .f-resource-booking__button._clear {
@@ -31665,7 +31664,7 @@ f-resource-reservation-controls {
     height: 220px;
   }
   .f-resource-reservation-controls__label {
-    color: #404652;
+    color: white;
   }
   .f-resource-reservation-controls__input {
     background-color: rgb(24, 26, 27);
@@ -31683,7 +31682,7 @@ f-resource-reservation-controls {
   .f-resource-reservation-controls__button {
     background-color: rgb(24, 26, 27);
     border: 1px solid #c4cbd3;
-    color: #404652;
+    color: white;
     height: 40px;
   }
   .f-resource-reservation-controls__button._clear {
@@ -31765,7 +31764,7 @@ f-seating-plan {
   margin: auto 0 -10px;
 }
 .f-seating-plan__tab {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 500;
   padding: 10px;
@@ -31799,7 +31798,7 @@ f-seating-plan {
   width: 200px;
 }
 .f-seating-plan__key-title {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 500;
   margin-bottom: 15px;
@@ -32227,7 +32226,7 @@ f-seating-plan {
 .f-seating-plan__data-name {
   background-color: rgb(24, 26, 27);
   border-radius: 0 0 5px 5px;
-  color: #404652;
+  color: white;
   line-height: 1.2;
   margin-bottom: 1px;
   text-align: center;
@@ -32644,7 +32643,7 @@ f-seating-plan {
   top: 0;
 }
 .f-seating-plan__info-item {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
 }
@@ -33028,7 +33027,7 @@ f-seating-plan {
   padding: 12px 0;
 }
 .f-select-contacts__radio-text {
-  color: #404652;
+  color: white;
 }
 .f-select-contacts__radio-text:before {
   border-color: #bfc6ce;
@@ -33442,7 +33441,7 @@ f-send {
   margin-bottom: 15px;
 }
 .f-send__editor-textarea {
-  color: #404652;
+  color: white;
   font-size: 15px;
   height: 100%;
   padding: 20px 25px;
@@ -33541,7 +33540,7 @@ f-send {
   padding: 0 7px 0 11px;
 }
 .f-send__custom-field-input {
-  color: #404652;
+  color: white;
   flex-grow: 1;
   font-size: 14px;
   width: 0;
@@ -33586,7 +33585,7 @@ f-send {
   display: block;
 }
 .f-send__checkbox-title {
-  color: #404652;
+  color: white;
 }
 .f-send__checkbox-title:before {
   border: 1px solid #e3e9ea;
@@ -33600,17 +33599,17 @@ f-send {
   background: #fff;
   border: 1px solid #e3e9ea;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 14px;
   width: 100%;
 }
 .f-send__field::-moz-placeholder,
 .f-send__textarea::-moz-placeholder {
-  color: #404652;
+  color: white;
 }
 .f-send__field::placeholder,
 .f-send__textarea::placeholder {
-  color: #404652;
+  color: white;
 }
 .f-send__textarea {
   padding: 16px;
@@ -33647,7 +33646,7 @@ f-send {
   background: #fff;
   border: 1px solid #e3e9ea;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.2rem;
   font-weight: 700;
   height: 40px;
@@ -33655,7 +33654,7 @@ f-send {
   width: 100%;
 }
 .f-send__sms-counter {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
 }
 .f-send .selectize-control {
@@ -33672,22 +33671,22 @@ f-send {
 }
 .tablet select.f-send__select-mobile.f-default__select-mobile {
   background-color: rgb(24, 26, 27);
-  color: #404652;
+  color: white;
   height: 40px;
   padding-left: 10px;
 }
 .f-send__date input {
   background: #fff;
   border-color: #e3e9ea;
-  color: #404652;
+  color: white;
   height: 40px;
   padding: 0 40px 0 10px;
 }
 .f-send__date input::-moz-placeholder {
-  color: #404652;
+  color: white;
 }
 .f-send__date input::placeholder {
-  color: #404652;
+  color: white;
 }
 .f-send__date .svg-calendar-small {
   fill: grey;
@@ -34078,7 +34077,7 @@ f-student-points {
     box-shadow: 0 1px 0 0 #eb3449;
   }
   .f-student-points__label {
-    color: #404652;
+    color: white;
     display: block;
     font-size: 12px;
     font-weight: 500;
@@ -36076,7 +36075,7 @@ f-student-search {
   margin-bottom: 13px;
 }
 .f-student-summary__date {
-  color: #404652;
+  color: white;
   font-size: 20px;
   line-height: 24px;
 }
@@ -36260,7 +36259,7 @@ f-summernote {
     width: 100%;
   }
   .f-student-marksheets__checkbox-text {
-    color: #404652;
+    color: white;
   }
   .f-student-marksheets__checkbox-text:before {
     border: 2px solid #bfc6ce;
@@ -36269,7 +36268,7 @@ f-summernote {
     background: #bfc6ce;
   }
   .f-student-marksheets__label {
-    color: #404652;
+    color: white;
   }
 }
 .f-teacher-book {
@@ -36288,7 +36287,7 @@ f-summernote {
 }
 .tablet .f-teacher-book__select-mobile {
   border: 1px solid #b8b8b8;
-  color: #404652;
+  color: white;
 }
 .f-teacher-search,
 f-teacher-search {
@@ -36362,7 +36361,7 @@ f-teacher-search {
   margin-top: 20px;
 }
 .f-update-learners__label {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.4rem;
   margin-bottom: 5px;
@@ -36393,7 +36392,7 @@ f-teacher-search {
 }
 .f-view-forms__subject {
   border-top: 1px dotted #ccc;
-  color: #404652;
+  color: white;
   font-size: 2rem;
   font-weight: 500;
   line-height: 1;
@@ -36401,18 +36400,18 @@ f-teacher-search {
   text-align: center;
 }
 .f-view-forms__subheading {
-  color: #404652;
+  color: white;
   font-size: 1.8rem;
   font-weight: 500;
 }
 .f-view-forms__label {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 30px;
 }
 .f-view-forms__text {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
 }
 .mobile .f-view-forms__select,
@@ -36892,7 +36891,7 @@ l-attachments {
 }
 .l-attachments__downloading {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.4rem;
   font-weight: 500;
@@ -36930,7 +36929,7 @@ l-attachments {
 }
 .l-booking-category__item {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   justify-content: space-between;
 }
@@ -36994,7 +36993,7 @@ l-attachments {
 }
 .l-booking-resource__item {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   justify-content: space-between;
 }
@@ -37216,7 +37215,7 @@ l-attachments {
   }
   .desktop .l-children__child:hover .l-children__name,
   .l-children__child._active .l-children__name {
-    color: #404652;
+    color: white;
   }
   .desktop .l-children__child:hover .l-children__avatar,
   .l-children__child._active .l-children__avatar {
@@ -38126,7 +38125,7 @@ l-marks {
   margin-right: auto;
 }
 .l-marks__btn {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 16px;
   padding: 13px 11px;
@@ -38662,7 +38661,7 @@ ul.l-marksheets__list {
   width: calc(100% - 90px);
 }
 .l-messages__name {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   overflow: hidden;
@@ -38707,7 +38706,7 @@ ul.l-marksheets__list {
 }
 .l-messages__recipients {
   align-items: center;
-  color: #404652;
+  color: white;
   display: block;
   display: flex;
   font-size: 1.6rem;
@@ -38791,7 +38790,7 @@ ul.l-marksheets__list {
   top: 0;
 }
 .l-noticeboard__name {
-  color: #404652;
+  color: white;
   font-size: 16px;
   text-align: center;
 }
@@ -39418,7 +39417,7 @@ l-register {
     width: 40px;
   }
   .l-register__name {
-    color: #404652;
+    color: white;
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
@@ -39618,7 +39617,7 @@ l-related-students {
   background-color: #f1f5f6;
 }
 .l-related-students__row._empty {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   justify-content: center;
@@ -39648,12 +39647,12 @@ l-related-students {
   margin-left: 8px;
 }
 .l-related-students__student-name {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
 }
 .l-related-students__student-data {
-  color: #404652;
+  color: white;
   font-size: 1.2rem;
 }
 @media only screen and (max-width: 740px) {
@@ -39705,7 +39704,7 @@ l-resource-categories {
 }
 .l-resource-categories__item {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   gap: 8px;
   padding: 8px;
@@ -39815,7 +39814,7 @@ l-resource-categories {
 }
 .l-resources__item {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   gap: 8px;
   padding: 8px;
@@ -40073,7 +40072,7 @@ l-resource-categories {
     white-space: nowrap;
   }
   .l-schedule-events__description {
-    color: #404652;
+    color: white;
     display: block;
     font-size: 21px;
     font-weight: 300;
@@ -40114,7 +40113,7 @@ l-student-info {
   background: transparent;
 }
 .l-student-info__warning {
-  color: #404652;
+  color: white;
   font-size: 20px;
   padding: 30px 0;
   text-align: center;
@@ -40131,12 +40130,12 @@ l-student-info {
   font-weight: 500;
 }
 .l-student-info__data {
-  color: #404652;
+  color: white;
   font-size: 17px;
   padding: 5px 0;
 }
 .l-student-info__data a {
-  color: #404652;
+  color: white;
 }
 .l-student-info__data._green svg,
 .l-student-info__data._red svg {
@@ -40236,7 +40235,7 @@ l-student-info {
 }
 .l-student-info-details__col {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.4rem;
@@ -41561,9 +41560,8 @@ l-student-search {
   background: transparent;
 }
 .l-student-summary__top {
-  background: #f2f6f7;
+  background: rgb(24, 26, 27);
   border-bottom: 1px solid #e3e9ea;
-  border-radius: 5px 5px 0 0;
   display: flex;
   height: 36px;
 }
@@ -41608,12 +41606,13 @@ l-student-search {
   color: #fff;
 }
 .l-student-summary .b-points-badge {
+  border-top: 1px solid #fff;
   bottom: -20px;
   position: absolute;
   right: 14px;
 }
 .l-student-summary__warning {
-  color: #404652;
+  color: white;
   font-size: 20px;
   padding: 30px 0;
   text-align: center;
@@ -41867,7 +41866,7 @@ l-student-search {
     line-height: 30px;
   }
   .l-student-summary .b-points-badge {
-    background-color: #f8fafb;
+    background-color: rgb(24, 26, 27);
     position: static;
   }
   .p-behaviour._summary-achievement-points .l-student-summary__wrapper,
@@ -43316,7 +43315,7 @@ modal-add-booking-category {
   margin-bottom: 10px;
 }
 .modal-add-booking-category__title {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   margin: 0 0 5px 5px;
   text-align: left;
@@ -43344,7 +43343,7 @@ modal-add-booking-resource {
   margin-bottom: 10px;
 }
 .modal-add-booking-resource__title {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   margin: 0 0 5px 5px;
   text-align: left;
@@ -43559,7 +43558,7 @@ div.modal-add-variable__inner {
   width: 100%;
 }
 .modal-add-variable__title {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   text-transform: capitalize;
@@ -43577,7 +43576,7 @@ div.modal-attachments__inner {
   width: 100%;
 }
 .modal-attachments__empty {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 3.9rem;
@@ -44767,7 +44766,7 @@ div.modal-details__inner {
   margin-bottom: 17px;
 }
 .modal-details__title {
-  color: #404652;
+  color: white;
   font-size: 2rem;
   margin-bottom: 8px;
 }
@@ -44780,7 +44779,7 @@ div.modal-details__inner {
   margin-top: 4px;
 }
 .modal-details__message {
-  color: #404652;
+  color: white;
   font-size: 2rem;
   padding: 20px;
   text-align: center;
@@ -44843,7 +44842,7 @@ div.modal-details__inner {
 }
 .modal-details__table-col {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.4rem;
@@ -45030,7 +45029,7 @@ div.modal-event-timetable__inner {
   padding: 0;
 }
 .modal-event-timetable__empty {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 6.4rem;
@@ -45378,7 +45377,7 @@ div.modal-manage-areas__inner {
   transform: rotate(90deg);
 }
 .modal-manage-areas__title {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
 }
 modal-manage-booking-category {
@@ -45426,7 +45425,7 @@ modal-manage-groups {
   margin-bottom: -10px;
 }
 .modal-manage-groups__inner {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 600;
   max-width: 720px;
@@ -45561,7 +45560,7 @@ modal-manage-resource-categories {
   margin-bottom: 10px;
 }
 .modal-manage-resource-categories__title {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   margin: 0 0 5px 5px;
   text-align: left;
@@ -45586,7 +45585,7 @@ modal-manage-resources {
   margin-bottom: 24px;
 }
 .modal-manage-resources__title {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   margin: 0 0 5px 5px;
   text-align: left;
@@ -46321,7 +46320,7 @@ div.modal-show-message__inner {
   width: 100%;
 }
 .modal-show-message__message {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   margin-bottom: 24px;
 }
@@ -46348,7 +46347,7 @@ div.modal-show-message__inner {
   width: 24px;
 }
 .modal-show-message__btn-edit:hover {
-  color: #404652;
+  color: white;
 }
 .modal-show-message__btn-edit svg-use {
   display: contents;
@@ -46789,7 +46788,7 @@ div.modal-available-grades__inner {
   border-top: 1px solid #e3e9ea;
 }
 .modal-available-grades__item {
-  color: #404652;
+  color: white;
   font-size: 1.5rem;
   padding: 5px 15px;
 }
@@ -47313,7 +47312,7 @@ pr-teacher._marksheets-learners .pr-teacher__history {
     display: flex;
   }
   .pr-teacher__history {
-    color: #404652;
+    color: white;
   }
   .p-marksheets._learners .pr-teacher__history {
     margin-bottom: 10px;
@@ -49095,7 +49094,7 @@ sl-noticeboard {
   position: relative;
 }
 .sl-noticeboard__link {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 17px;
   padding: 5px 0;
@@ -49246,7 +49245,7 @@ sl-noticeboard {
   background: #fff;
   border: 1px solid #bfc6ce;
   border-radius: 5px;
-  color: #404652;
+  color: white;
   font-size: 1.2rem;
   height: 30px;
   padding: 0 10px;
@@ -49306,7 +49305,7 @@ p.t-absence-management__log {
   pointer-events: auto;
 }
 .t-access-log__message {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 600;
   padding: 10px;
@@ -49736,7 +49735,7 @@ p.t-absence-management__log {
   transition: all 0.2s ease-out;
 }
 .t-attendance-overview__message {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 600;
   padding: 10px;
@@ -49916,7 +49915,7 @@ t-book-slot {
   height: 100%;
 }
 .t-book-slot {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   position: relative;
 }
@@ -50212,7 +50211,7 @@ t-class-dashboard {
 }
 .t-class-dashboard__col {
   background-color: rgb(24, 26, 27);
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   min-width: 100px;
   padding: 10px;
@@ -50237,7 +50236,7 @@ t-class-dashboard {
   left: 100px;
 }
 .t-class-dashboard__col._no-data {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 600;
   padding: 10px;
@@ -50383,7 +50382,7 @@ t-club-attendance-overview {
 }
 .t-club-attendance-overview__col {
   background-color: rgb(24, 26, 27);
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   min-width: 100px;
   padding: 10px;
@@ -50401,7 +50400,7 @@ t-club-attendance-overview {
   z-index: 1;
 }
 .t-club-attendance-overview__col._no-data {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 600;
   padding: 10px;
@@ -50648,7 +50647,7 @@ t-clubs {
 }
 .tablet .t-contact-details__select-mobile {
   border: 1px solid #e3e9ea;
-  color: #404652;
+  color: white;
 }
 @media screen and (max-width: 740px) {
   .t-contact-details__body {
@@ -51089,7 +51088,7 @@ t-detention-learners {
   width: 1px;
 }
 .t-detention-learners__table-body {
-  color: #404652;
+  color: white;
   grid-area: body;
   overflow-x: hidden;
   overflow-y: auto;
@@ -51263,7 +51262,7 @@ t-detentions {
 }
 .t-detentions__row._empty {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.6rem;
   height: 100%;
@@ -51346,7 +51345,7 @@ t-document-access {
   min-height: 40px;
 }
 .t-document-access__table-body {
-  color: #404652;
+  color: white;
   grid-area: body;
   overflow-x: hidden;
   overflow-y: auto;
@@ -51885,7 +51884,7 @@ t-events {
   background: #f8fafb;
 }
 .t-events__link {
-  color: #404652;
+  color: white;
 }
 .t-events__body {
   border-radius: 0 0 5px 5px;
@@ -51898,7 +51897,7 @@ t-events {
   padding: 0;
 }
 .t-events__body-message {
-  color: #404652;
+  color: white;
   font-size: 2rem;
   min-height: 500px;
   padding: 20px;
@@ -52018,7 +52017,7 @@ t-events {
   background: transparent;
 }
 .t-exam-entries__col {
-  color: #404652;
+  color: white;
 }
 .t-exam-entries__col._board,
 .t-exam-entries__col._code,
@@ -52096,7 +52095,7 @@ t-events {
   background: transparent;
 }
 .t-exam-results__col {
-  color: #404652;
+  color: white;
 }
 .t-exam-results__col._date,
 .t-exam-results__col._equivalent,
@@ -52188,7 +52187,7 @@ t-events {
   background: transparent;
 }
 .t-exam-timetable__col {
-  color: #404652;
+  color: white;
 }
 .t-exam-timetable__col._board,
 .t-exam-timetable__col._code,
@@ -52371,7 +52370,7 @@ t-events {
 }
 .tablet .t-family-contacts__select-mobile {
   border: 1px solid #e3e9ea;
-  color: #404652;
+  color: white;
 }
 @media screen and (max-width: 740px) {
   .t-family-contacts__row {
@@ -52684,7 +52683,7 @@ t-events {
   padding: 0 5px;
 }
 .t-homework-learners__name {
-  color: #404652;
+  color: white;
   font-size: 1.5rem;
   font-weight: 500;
   word-wrap: break-word;
@@ -52757,7 +52756,7 @@ t-events {
   }
 }
 .t-homework-overview__message {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 600;
   padding: 10px;
@@ -53078,7 +53077,7 @@ t-log {
   height: 100%;
 }
 .t-log__message {
-  color: #404652;
+  color: white;
   font-size: 2.2rem;
   padding: 40px;
   text-align: center;
@@ -53103,7 +53102,7 @@ t-log {
   padding: 17px 0;
 }
 .t-log__col {
-  color: #404652;
+  color: white;
   display: block;
   font-size: 1.4rem;
   padding: 0 15px;
@@ -53924,7 +53923,7 @@ t-manage-submission {
   height: 100%;
 }
 .t-manage-submission__message {
-  color: #404652;
+  color: white;
   font-size: 2.2rem;
   padding: 40px;
   text-align: center;
@@ -53986,7 +53985,7 @@ t-manage-submission {
 }
 .t-manage-submission__col {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.4rem;
@@ -54300,7 +54299,7 @@ t-parent-event {
   width: 1px;
 }
 .t-parent-event__lin. {
-  color: #404652;
+  color: white;
 }
 .t-parent-event__wrapper {
   border-radius: 0 0 5px 5px;
@@ -54700,7 +54699,7 @@ t-personal-forms {
 }
 .t-register-details__col {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.4rem;
@@ -55031,7 +55030,7 @@ t-personal-forms {
 .t-report-card__input {
   background-color: #f9f9f9;
   border: 1px solid #b8b8b8;
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   height: 40px;
   padding: 0 15px;
@@ -55294,7 +55293,7 @@ t-resource-booking {
 }
 .t-resource-booking__empty {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 2rem;
   height: 100%;
@@ -55511,7 +55510,7 @@ t-resource-reservations {
   fill: #aaa;
 }
 .t-resource-reservations__message {
-  color: #404652;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   left: 0;
@@ -55783,7 +55782,7 @@ t-resource-reservations-skeleton {
 }
 .t-room-changes__message {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.8rem;
   height: 100%;
@@ -55859,7 +55858,7 @@ t-resource-reservations-skeleton {
 }
 .t-room-closures__message {
   align-items: center;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.8rem;
   height: 100%;
@@ -55925,7 +55924,7 @@ t-resource-reservations-skeleton {
   background: transparent;
 }
 .t-select-recipients__body .t-select-recipients__col {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 500;
 }
@@ -55933,7 +55932,7 @@ t-resource-reservations-skeleton {
   padding-left: 25px;
 }
 .t-select-recipients__empty {
-  color: #404652;
+  color: white;
   flex-grow: 1;
   font-size: 2rem;
   padding: 25px 15px;
@@ -56132,7 +56131,7 @@ t-resource-reservations-skeleton {
     background: #e6e9ec;
     border-bottom: 1px solid #bfc6ce;
     border-top: 1px solid #bfc6ce;
-    color: #404652;
+    color: white;
     display: flex;
     font-size: 1.1rem;
     font-weight: 800;
@@ -56298,7 +56297,7 @@ t-slots {
 }
 .t-slots__item._booked {
   background: #f5b2b2;
-  color: #404652;
+  color: white;
   cursor: inherit;
 }
 .t-slots__item:nth-child(5n + 1) {
@@ -56370,7 +56369,7 @@ t-student-seating-plans {
 }
 .t-student-seating-plans__col {
   background-color: rgb(24, 26, 27);
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   min-width: 100px;
   padding: 10px 15px;
@@ -56380,7 +56379,7 @@ t-student-seating-plans {
   text-align: center;
 }
 .t-student-seating-plans__col._no-data {
-  color: #404652;
+  color: white;
   font-size: 1.4rem;
   font-weight: 600;
   padding: 10px;
@@ -56511,7 +56510,7 @@ t-submissions {
   height: 100%;
 }
 .t-submissions__message {
-  color: #404652;
+  color: white;
   font-size: 2.2rem;
   padding: 40px;
   text-align: center;
@@ -56575,7 +56574,7 @@ t-submissions {
     padding: 15px 0;
   }
   .t-submissions__col {
-    color: #404652;
+    color: white;
     font-size: 1.5rem;
   }
   .t-submissions__col:not(:last-child) {
@@ -56741,7 +56740,7 @@ t-teacher-event {
   fill: #404652;
 }
 .t-teacher-event__link {
-  color: #404652;
+  color: white;
 }
 .t-teacher-event__wrapper {
   border-radius: 0 0 5px 5px;
@@ -57285,7 +57284,7 @@ t-medical-tests {
 .t-club-dates__row._empty {
   align-items: center;
   bottom: 0;
-  color: #404652;
+  color: white;
   display: flex;
   font-size: 1.6rem;
   height: 100%;
@@ -57380,7 +57379,7 @@ t-medical-tests {
 }
 .btn-tree-state__item {
   background-color: #e6e9ec;
-  color: #404652;
+  color: white;
   font-weight: 500;
   height: 30px;
   width: 50px;
