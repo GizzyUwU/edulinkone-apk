@@ -1,0 +1,25 @@
+name: main
+on: [ push ]
+env:
+  MELI_SITE: "b9f6d92b-4be5-4ea7-aba2-c5c5d3fa38d8"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '18'
+      - name: "publish"
+        run: |
+          npx -p "@getmeli/cli" meli upload ./assets/www \
+            --url "https://pages.potatowo.me" \
+            --site "$MELI_SITE" \
+            --token "$MELI_TOKEN" \
+            --release "$GITEA_SHA"
+        env:
+          MELI_TOKEN: ${{ secrets.MELI_TOKEN }}
+          # Enable PR previews:
+          # uses the default GITHUB_TOKEN set by Github Actions
+          # https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+          GITEA_TOKEN: ${{ secrets.GITEA_TOKEN }}
