@@ -63,7 +63,7 @@ jobs:
         run: mv edulink-unsigned-aligned-signed.apk edulink.apk
 
       - name: Upload APK to Gitea Release
-        uses: actions/release-action@main
+        uses: https://gitea.com/actions/release-action@main
         with:
           files: edulink.apk
           api_key: '${{ secrets.RELEASE_TOKEN }}'
