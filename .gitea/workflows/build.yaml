@@ -62,7 +62,7 @@ jobs:
       - name: Set dynamic tag
         id: tag
         run: |
-          TAG="release-$(date +'%Y%m%d%H%M%S')"
+          TAG="$(date +'%Y-%m-%d-%H-%M-%S')"
           echo "tag_name=$TAG" >> $GITHUB_OUTPUT
 
       - name: Create and push tag
@@ -75,5 +75,6 @@ jobs:
         with:
           token: ${{ secrets.RELEASE_TOKEN }}
           tag_name: ${{ steps.tag.outputs.tag_name }}
-          name: Release ${{ steps.tag.outputs.tag_name }}
+          name: ${{ steps.tag.outputs.tag_name }}
           files: edulink.apk
+          prerelease: true
