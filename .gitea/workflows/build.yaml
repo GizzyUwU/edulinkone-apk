@@ -42,14 +42,6 @@ jobs:
       - name: Build APK using apktool
         run: apktool b ./ -o edulink-unsigned.apk
 
-      - name: Check APK contents before signing
-        run: unzip -l edulink-unsigned.apk
-
-      - name: Check keystore_password and key_alias length
-        run: |
-          echo "keystore_password length: ${#KEYSTORE_PASSWORD}"
-          echo "key_alias length: ${#KEY_ALIAS}"
-
       - name: Sign the APK
         run: |
           java -jar uber-apk-signer.jar \
@@ -67,9 +59,25 @@ jobs:
         with:
           go-version: '>=1.24.3'
 
+      - name: Set tag name
+        id: tag
+        run: |
+          TAG="release-${GITEA_REF_NAME}-$(date +'%Y%m%d%H%M%S')"
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Create and push tag
+        run: |
+          git tag ${{ steps.tag.outputs.tag }}
+          git push origin ${{ steps.tag.outputs.tag }}
+
+      - name: Get commit message
+        id: commit_msg
+        run: echo "::set-output name=msg::$(git log -1 --pretty=%B)"
+
       - name: Upload APK to Gitea Release
         uses: https://gitea.com/actions/release-action@main
         with:
           files: edulink.apk
           api_key: '${{ secrets.RELEASE_TOKEN }}'
-          tag_name: ${{ steps.tag_version.outputs.VERSION }}
+          tag_name: ${{ steps.tag.outputs.tag }}
+          release_name: ${{ steps.commit_msg.outputs.msg }}
