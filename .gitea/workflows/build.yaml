@@ -60,7 +60,7 @@ jobs:
             --ksKeyPass "$KEYSTORE_PASSWORD"
     
       - name: Rename signed APK
-        run: mv edulink-unsigned-aligned-signed.apk edulink.apk
+        run: mv edulink-aligned-signed.apk edulink.apk
 
       - name: Upload APK to Gitea Release
         uses: https://gitea.com/actions/release-action@main
