@@ -9,7 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+      KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -43,14 +45,19 @@ jobs:
       - name: Check APK contents before signing
         run: unzip -l edulink.apk
 
-      - name: Download and use uber-apk-signer
+      - name: Check keystore_password and key_alias length
+        run: |
+          echo "keystore_password length: ${#KEYSTORE_PASSWORD}"
+          echo "key_alias length: ${#KEY_ALIAS}"
+
+      - name: Sign the APK
         run: |
           java -jar uber-apk-signer.jar \
             --apk edulink.apk \
             --ks build.keystore \
-            --ksAlias ${{ secrets.KEY_ALIAS }} \
-            --ksPass ${{ secrets.KEYSTORE_PASSWORD }} \
-            --ksKeyPass ${{ secrets.KEYSTORE_PASSWORD }}
+            --ksAlias "$KEY_ALIAS" \
+            --ksPass "$KEYSTORE_PASSWORD" \
+            --ksKeyPass "$KEYSTORE_PASSWORD"
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v3
