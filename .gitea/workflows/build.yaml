@@ -46,6 +46,11 @@ jobs:
       - name: Zipalign APK
         run: zipalign -v 4 edulink-unsigned.apk edulink-aligned.apk
 
+      - name: List files before signing
+        run: |
+          pwd
+          ls -lh
+
       - name: Sign APK with apksigner
         run: apksigner sign --ks build.keystore --ks-key-alias ${{ secrets.KEY_ALIAS }} --ks-pass pass:${{ secrets.KEYSTORE_PASSWORD }} --key-pass pass:${{ secrets.KEYSTORE_PASSWORD }} edulink-aligned.apk
 
