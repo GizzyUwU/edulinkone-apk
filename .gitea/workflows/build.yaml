@@ -73,7 +73,6 @@ jobs:
       - name: Publish Release on Gitea
         uses: akkuman/gitea-release-action@v1
         with:
-          server_url: https://git.potatowo.me/api/v1
           token: ${{ secrets.RELEASE_TOKEN }}
           tag_name: ${{ steps.tag.outputs.tag_name }}
           name: Release ${{ steps.tag.outputs.tag_name }}
