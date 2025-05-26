@@ -40,10 +40,10 @@ jobs:
           echo "${{ secrets.KEYSTORE }}" | base64 -d > build.keystore
 
       - name: Build APK using apktool
-        run: apktool b ./ -o edulink.apk
+        run: apktool b ./ -o edulink-unsigned.apk
 
       - name: Check APK contents before signing
-        run: unzip -l edulink.apk
+        run: unzip -l edulink-unsigned.apk
 
       - name: Check keystore_password and key_alias length
         run: |
@@ -53,14 +53,18 @@ jobs:
       - name: Sign the APK
         run: |
           java -jar uber-apk-signer.jar \
-            --apk edulink.apk \
+            --apk edulink-unsigned.apk \
             --ks build.keystore \
             --ksAlias "$KEY_ALIAS" \
             --ksPass "$KEYSTORE_PASSWORD" \
             --ksKeyPass "$KEYSTORE_PASSWORD"
+    
+      - name: Rename signed APK
+        run: mv edulink-unsigned-aligned-signed.apk edulink.apk
 
-      - name: Upload APK artifact
-        uses: actions/upload-artifact@v3
+      - name: Upload APK to Gitea Release
+        uses: actions/release-action@main
         with:
-          name: edulink.apk
-          path: edulink-aligned-signed.apk
+          files: edulink.apk
+          api_key: '${{ secrets.RELEASE_TOKEN }}'
+          tag_name: ${{ steps.tag_version.outputs.VERSION }}
