@@ -1,6 +1,8 @@
 name: main
 on:
   push:
+    paths:
+      - 'assets/www/**'
   workflow_dispatch:
 env:
   MELI_SITE: "b3d6bf16-5229-4eea-b990-dcd187e5f42c"

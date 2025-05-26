@@ -25,20 +25,21 @@ jobs:
             zip \
             && apt-get clean
 
-          wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O apktool
-          wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.8.2.jar -O apktool.jar
+          wget -q https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O apktool
+          wget -q https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.11.1.jar -O apktool.jar
           chmod +x apktool
           mv apktool /usr/local/bin/
           mv apktool.jar /usr/local/bin/
 
           java -version
-          apktool --version
-          zipalign -v
+          apktool --version && echo guh
+          echo rawr
           apksigner --version
+          echo blah
 
-      - name: Write keystore file from secret
-        run: echo "${{ secrets.KEYSTORE }}" > build.keystore
-
+      - name: Decode and write keystore
+        run: |
+          echo "${{ secrets.KEYSTORE }}" | base64 -d > build.keystore
       - name: Build APK using apktool
         run: apktool b ./ -o edulink-unsigned.apk
 
@@ -46,13 +47,7 @@ jobs:
         run: zipalign -v 4 edulink-unsigned.apk edulink-aligned.apk
 
       - name: Sign APK with apksigner
-        run: |
-          apksigner sign \
-            --ks build.keystore \
-            --ks-key-alias ${{ secrets.KEY_ALIAS }} \
-            --ks-pass pass:${{ secrets.KEYSTORE_PASSWORD }} \
-            --key-pass pass:${{ secrets.KEYSTORE_PASSWORD }} \
-            edulink-aligned.apk
+        run: apksigner sign --ks build.keystore --ks-key-alias ${{ secrets.KEY_ALIAS }} --ks-pass pass:${{ secrets.KEYSTORE_PASSWORD }} --key-pass pass:${{ secrets.KEYSTORE_PASSWORD }} edulink-aligned.apk
 
       - name: Verify APK signature
         run: apksigner verify --verbose edulink-aligned.apk
