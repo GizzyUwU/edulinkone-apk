@@ -52,10 +52,10 @@ jobs:
           ls -lh
 
       - name: Sign APK with apksigner
-        run: apksigner sign --ks build.keystore --ks-key-alias ${{ secrets.KEY_ALIAS }} --ks-pass pass:${{ secrets.KEYSTORE_PASSWORD }} --key-pass pass:${{ secrets.KEYSTORE_PASSWORD }} edulink-aligned.apk
+        run: apksigner sign --ks build.keystore --ks-key-alias ${{ secrets.KEY_ALIAS }} --ks-pass pass:${{ secrets.KEYSTORE_PASSWORD }} --key-pass pass:${{ secrets.KEYSTORE_PASSWORD }} ./edulink-aligned.apk
 
       - name: Verify APK signature
-        run: apksigner verify --verbose edulink-aligned.apk
+        run: apksigner verify --verbose ./edulink-aligned.apk
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v3
