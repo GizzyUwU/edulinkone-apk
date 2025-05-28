@@ -12783,7 +12783,7 @@ behaviour .container {
     font-weight: 700;
 }
 .jzscvZ4FILDY10OfwLAY.C5nbc_MPiC7gNWtx3oiV {
-    background-color: #f9f2e2;
+    background-color: rgb(24, 26, 27);
 }
 .jzscvZ4FILDY10OfwLAY.C5nbc_MPiC7gNWtx3oiV .N5vNHnrwPlPkt0QauN5U {
     color: orange;
@@ -16212,7 +16212,7 @@ mwl-calendar {
         text-align: center;
     }
     .b-calendar__month {
-        color: #424854;
+        color: white;
     }
     .b-calendar .calendar-day__text {
         margin-top: 7px;
@@ -19167,7 +19167,7 @@ b-mailbox {
 }
 .b-mailbox__content,
 .b-mailbox__content-empty {
-    background: rgb(24, 26, 27);;
+    background: rgb(24, 26, 27);
     border-radius: 0 5px 5px 0;
     display: flex;
     color: white;
@@ -21639,8 +21639,9 @@ b-schedule {
     order: 3;
 }
 .b-schedule button._small {
-    background: #20c1ae;
+    background: #1a9a8b;
     color: #fff;
+    border: 0;
 }
 @media only screen and (min-width: 881px) and (orientation: landscape) {
     b-schedule {
@@ -21691,7 +21692,7 @@ b-schedule {
         min-height: 200px;
     }
     .b-schedule__left {
-        background: #fff;
+        background: rgb(24, 26, 27);
         border-radius: 0;
         box-shadow: 0 3px 20px rgba(60, 66, 78, 0.3);
         margin-bottom: 20px;
@@ -40061,7 +40062,7 @@ l-resource-categories {
     background: transparent;
 }
 .l-schedule-events .l-default__item:nth-child(2n) {
-    background: #fff;
+    background: rgb(24, 26, 27);
 }
 .l-schedule-events__date {
     display: flex;
@@ -40168,7 +40169,7 @@ l-resource-categories {
         border-top: 0;
     }
     .l-schedule-events__item {
-        background: #fff;
+        background: rgb(24, 26, 27);
         border: 0;
         border-radius: 2px;
         box-shadow: 0 3px 20px rgba(60, 66, 78, 0.3);
@@ -47916,7 +47917,7 @@ pr-teacher._marksheets-learners .pr-teacher__history {
 }
 .pr-user-select__selected {
     border-radius: 2px 2px 0 0;
-    color: #40444a;
+    color: white;
     display: block;
     font-size: 22px;
     line-height: 45px;
