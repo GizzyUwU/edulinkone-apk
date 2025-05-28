@@ -1,4 +1,4 @@
-node_modules
+git anode_modules
 /build
 build.keystore
 build.keystore.base64
