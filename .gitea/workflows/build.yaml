@@ -23,6 +23,8 @@ jobs:
             wget \
             unzip \
             zip \
+            curl \
+            jq \
             && apt-get clean
 
           wget -q https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O apktool
@@ -31,9 +33,6 @@ jobs:
           chmod +x apktool
           mv apktool /usr/local/bin/
           mv apktool.jar /usr/local/bin/
-
-          java -version
-          apktool --version
 
       - name: Decode and write keystore
         run: |
@@ -50,14 +49,15 @@ jobs:
             --ksAlias "$KEY_ALIAS" \
             --ksPass "$KEYSTORE_PASSWORD" \
             --ksKeyPass "$KEYSTORE_PASSWORD"
-    
+
       - name: Rename signed APK
         run: mv edulink-aligned-signed.apk edulink.apk
 
-      - name: Setup Go
-        uses: https://github.com/actions/setup-go@v4
-        with:
-          go-version: '>=1.24.3'
+      - name: Install Rust and git-cliff
+        run: |
+          curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+          source $HOME/.cargo/env
+          cargo install git-cliff --locked
 
       - name: Set dynamic tag
         id: tag
@@ -70,11 +70,17 @@ jobs:
           git tag ${{ steps.tag.outputs.tag_name }}
           git push origin ${{ steps.tag.outputs.tag_name }}
 
+      - name: Generate changelog
+        run: |
+          source $HOME/.cargo/env
+          git cliff --tag ${{ steps.tag.outputs.tag_name }} > changelog.md
+
       - name: Publish Release on Gitea
         uses: akkuman/gitea-release-action@v1
         with:
           token: ${{ secrets.RELEASE_TOKEN }}
           tag_name: ${{ steps.tag.outputs.tag_name }}
           name: ${{ steps.tag.outputs.tag_name }}
+          body_path: changelog.md
           files: edulink.apk
           prerelease: true

@@ -27150,6 +27150,7 @@ f-autocomplete {
     height: 40px;
     padding: 0 15px;
     width: 100%;
+    color: white;
 }
 .f-add-import__controls {
     display: flex;
