@@ -1,4 +1,4 @@
-name: Your github action
+name: Push to GH-Pages Branch
 
 on:
   push:
