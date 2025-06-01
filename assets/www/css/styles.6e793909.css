@@ -1,3 +1,16 @@
+.app::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
+    height: 100vh;
+    z-index: 0;
+    pointer-events: none;
+}
+
 .ui-select-highlight {
     font-weight: 700;
 }
@@ -372,12 +385,12 @@ body > .ui-select-bootstrap.open {
     font-family: inherit;
     font-size: 13px;
     -webkit-font-smoothing: inherit;
-    color: #303030;
+    color: #fff;
     line-height: 18px;
 }
 .selectize-control.single .selectize-input.input-active,
 .selectize-input {
-    background: #fff;
+    /* background: #fff; */
     cursor: text;
     display: inline-block;
 }
@@ -593,7 +606,7 @@ body > .ui-select-bootstrap.open {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff008fd8",endColorstr="#ff0075cf",GradientType=0);
 }
 .selectize-control.single .selectize-input {
-    background-color: #f9f9f9;
+    background-color: rgb(24, 26, 27);;
     background-image: linear-gradient(180deg, #fefefe, #f2f2f2);
     background-repeat: repeat-x;
     box-shadow:
@@ -5958,8 +5971,9 @@ b-registers {
     color: #bcc3cb;
 }
 .btn-default._gray._fill {
-    background: #bcc3cb;
+    background: rgba(255,255,255,0.3);
     color: #fff;
+    border-color: rgba(255,255,255,0.3);
 }
 .btn-default._gradient {
     display: none;
@@ -7765,19 +7779,6 @@ label > * {
         background-size: cover;
     }
 
-    .app::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed */
-        height: 100vh;
-        z-index: 0;
-        pointer-events: none;
-    }
-
     .p-home .app .container {
         animation: none;
         display: block;
@@ -7967,17 +7968,17 @@ label > * {
     border-bottom: 5px solid #aed7eb;
     transform: translate3d(0, -6px, 0);
 }
-.t-default__body {
+/* .t-default__body {
     border-bottom: 1px solid #e3e9ea;
     border-left: 1px solid #e3e9ea;
     border-right: 1px solid #e3e9ea;
-}
+} */
 .t-default__row {
     display: flex;
     flex-wrap: wrap;
 }
 .t-default__row:nth-child(2n) {
-    background-color: green;
+    background-color: rgba(150, 150, 150, 0.1);
 }
 .t-default__col {
     align-items: center;
@@ -10057,7 +10058,7 @@ label > * {
     flex-grow: 1;
 }
 .noticeboard__content {
-    background: #fff;
+    background: rgb(24, 26, 27);
     border-radius: 5px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
     display: flex;
@@ -10942,7 +10943,7 @@ student {
 }
 .attendance__inner:before {
     border-bottom: 7px solid transparent;
-    border-right: 7px solid #fff;
+    border-right: 7px solid rgb(24, 26, 27);
     border-top: 7px solid transparent;
     content: "";
     display: block;
@@ -11948,7 +11949,7 @@ behaviour .container {
 }
 .NpIih5iv4bk_uF4R0QAM:before {
     border-bottom: 7px solid transparent;
-    border-right: 7px solid #fff;
+    border-right: 7px solid rgb(24, 26, 27);
     border-top: 7px solid transparent;
     content: "";
     height: 14px;
@@ -12081,7 +12082,7 @@ behaviour .container {
     }
 }
 .sd27RI4mErhWUXGTs8n4 {
-    background-color: #f8fafb;
+    background-color: rgb(24, 26, 27);
     border-bottom: 1px solid #e3e9ea;
     text-transform: capitalize;
 }
@@ -12098,7 +12099,7 @@ behaviour .container {
     cursor: pointer;
 }
 .JITpQnqbdSIlPF8N9Z8L:nth-child(2n) {
-    background-color: #f1f5f6;
+    background-color: rgb(255, 255, 255, 0.1);
 }
 @media only screen and (max-width: 740px) {
     .JITpQnqbdSIlPF8N9Z8L.WPce7UIPfNQddAHtkyUf {
@@ -12202,7 +12203,7 @@ behaviour .container {
 }
 .jNeTNMf7OGjPMAQn5vMH {
     align-items: center;
-    color: #3090c7;
+    color: #3090c7;P
     display: flex;
     flex-grow: 1;
     font-size: 1.2rem;
@@ -12218,7 +12219,7 @@ behaviour .container {
     justify-content: flex-end;
 }
 .jNeTNMf7OGjPMAQn5vMH:not(:first-child):before {
-    background-color: #e3e9ea;
+    /* background-color: #e3e9ea; */
     bottom: 0;
     content: "";
     display: block;
@@ -15851,7 +15852,7 @@ div.select__option {
     overflow-y: auto;
 }
 .b-attendance-today__title {
-    color: #474c52;
+    color: white;
     flex-shrink: 0;
     font-size: 1.6rem;
     font-weight: 500;
@@ -17309,8 +17310,8 @@ b-date-range-select {
     opacity: 0.6;
 }
 .b-date-time-select__input {
-    background: #f9f9f9;
-    border: 1px solid #b8b8b8;
+    background: rgba(255,255,255,0.1);
+    /* border: 1px solid #b8b8b8; */
     color: white;
     height: 40px;
     padding: 0 35px 0 15px;
@@ -18863,7 +18864,7 @@ b-links {
     width: 100%;
 }
 .b-links {
-    background: #fff;
+    background: rgb(24, 26, 27);
     border-radius: 5px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
     height: 425px;
@@ -18871,7 +18872,7 @@ b-links {
 }
 .b-links:before {
     border-bottom: 7px solid transparent;
-    border-right: 7px solid #fff;
+    border-right: 7px solid rgb(24, 26, 27);
     border-top: 7px solid transparent;
     content: "";
     display: block;
@@ -21530,7 +21531,7 @@ b-schedule {
 }
 .b-schedule__left {
     align-items: center;
-    background: linear-gradient(-10deg, #1fb5ba 50%, #1fbaa2);
+    background: linear-gradient(-10deg, #199195 50%, #199582);
     border-radius: 5px 0 0 5px;
     display: flex;
     flex-direction: column;
@@ -21542,7 +21543,7 @@ b-schedule {
     margin: 0 10px -13px;
 }
 .b-schedule__right {
-    background: #fff;
+    background: rgb(24, 26, 27);
     border-radius: 0 5px 5px 0;
     height: 100%;
     position: relative;
@@ -23372,7 +23373,7 @@ b-student-info {
     display: none;
 }
 .b-student-info__right {
-    background: #fff;
+    background: rgb(24, 26, 27);
     height: 100%;
     width: calc(100% - 330px);
 }
@@ -23428,7 +23429,7 @@ b-student-info {
     .p-documents .b-student-info:before,
     .p-medical .b-student-info:before,
     .p-sen .b-student-info:before {
-        border-right: 7px solid #fff;
+        border-right: 7px solid rgb(24, 26, 27);
     }
 }
 @media only screen and (min-width: 881px) and (orientation: landscape) and (orientation: portrait) {
@@ -25085,7 +25086,7 @@ b-timetable {
     width: 100%;
 }
 .b-timetable__content {
-    background: #fff;
+    background: rgb(24, 26, 27);
     border-radius: 5px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
     z-index: 2;
@@ -26263,8 +26264,8 @@ b-video-call {
     margin-bottom: -10px;
 }
 .f-add-calendar-entry__input {
-    background: #f2f6f7;
-    border: 1px solid #e3e9ea;
+    background: rgba(255,255,255,0.1);
+    /* border: 1px solid #e3e9ea; */
     color: #a0aab5;
     height: 46px;
 }
@@ -26320,8 +26321,8 @@ b-video-call {
     display: block;
 }
 .f-add-calendar-entry__date input {
-    background: #f2f6f7;
-    border-color: #e3e9ea;
+    /* background: #f2f6f7; */
+    /* border-color: #e3e9ea; */
     color: #a0aab5;
     height: 46px;
     padding: 0 35px 0 20px;
@@ -40082,7 +40083,7 @@ l-resource-categories {
     font-weight: 400;
 }
 .l-schedule-events__title {
-    color: #444;
+    color: #fff;
     display: flex;
     font-size: 15px;
     font-weight: 500;
@@ -40115,7 +40116,7 @@ l-resource-categories {
     text-decoration: none;
 }
 .desktop .l-schedule-events__link:hover {
-    background: #ebf5fb;
+    background: rgba(255,255,255,0.1);
 }
 .l-schedule-events__delete {
     position: absolute;
@@ -41704,8 +41705,13 @@ l-student-search {
 .l-student-summary__item {
     width: 100%;
 }
+
+.l-student-summary .l-student-summary__item {
+    color: white;
+}
+
 .l-student-summary .l-student-summary__item:nth-child(2n) {
-    background-color: #f8fafb;
+    background-color: rgba(150, 150, 150, 0.1);
 }
 .l-student-summary__nav {
     height: 33px;
@@ -41758,7 +41764,7 @@ l-student-search {
     line-height: 36px;
 }
 .l-student-summary__col:before {
-    background-color: #e3e9ea;
+    /* background-color: #e3e9ea; */
     bottom: 0;
     content: "";
     display: block;
@@ -57358,6 +57364,7 @@ t-timetable {
 .t-timetable__row._cover {
     background: rgb(24, 26, 27);
 }
+
 .t-timetable__col._class {
     flex-shrink: 0;
     width: 80px;
