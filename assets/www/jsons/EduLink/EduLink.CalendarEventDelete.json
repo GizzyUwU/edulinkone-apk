@@ -1,8 +1,0 @@
-{
-   "jsonrpc": "2.0",
-   "result": {
-      "method": "EduLink.CalendarEventDelete",
-      "success": true
-   },
-   "id": "6"
-}

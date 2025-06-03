@@ -1,1 +1,0 @@
-var onDocumentReadyCallbacks=[];function addDocumentReadyCallback(a){onDocumentReadyCallbacks.push(a)}

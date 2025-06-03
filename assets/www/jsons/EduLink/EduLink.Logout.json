@@ -1,8 +1,0 @@
-{
-   "jsonrpc": "2.0",
-   "result": {
-      "method": "EduLink.Logout",
-      "success": true
-   },
-   "id": "1"
-}
