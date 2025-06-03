@@ -15,21 +15,6 @@ var cordovaapp = {
 
     window.markloc = loc;
 
-    if (
-      window.cordova &&
-      navigator.notification &&
-      navigator.notification.alert
-    ) {
-      navigator.notification.alert(
-        "This is a popup triggered because window.cordova exists!",
-        null,
-        "Cordova Popup",
-        "OK",
-      );
-    } else {
-      alert("window.cordova not found, fallback alert!");
-    }
-
     var domElement = document.getElementById("html");
     angular.bootstrap(domElement, ["app"]);
   },
