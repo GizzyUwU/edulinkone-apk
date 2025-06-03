@@ -78,6 +78,7 @@ jobs:
 
       - name: Generate changelog
         run: |
+          set -e
           source $HOME/.cargo/env
           git cliff --tag ${{ steps.tag.outputs.tag_name }} > changelog.md
 

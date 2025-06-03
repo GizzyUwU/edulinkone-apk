@@ -1,4 +1,7 @@
-git anode_modules
-/build
+.git
+node_modules
 build.keystore
 build.keystore.base64
+**/build
+app/edulink-aligned-signed.apk
+app/edulink-unsigned.apk
