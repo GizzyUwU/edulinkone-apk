@@ -82,7 +82,7 @@ jobs:
         run: |
           set -e
           source $HOME/.cargo/env
-          git cliff --tag ${{ steps.tag.outputs.tag_name }} > changelog.md
+          git cliff --tag ${{ steps.tag.outputs.tag_name }} > ../changelog.md
 
       - name: Publish Release on Gitea
         uses: akkuman/gitea-release-action@v1
