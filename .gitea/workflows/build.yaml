@@ -21,23 +21,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      # - name: Install dependencies and tools
-      #   run: |
-      #     apt-get update && apt-get install -y \
-      #       openjdk-17-jdk \
-      #       wget \
-      #       unzip \
-      #       zip \
-      #       curl \
-      #       jq \
-      #       && apt-get clean
-
-      #     wget -q https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O apktool
-      #     wget -q https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.11.1.jar -O apktool.jar
-      #     wget -q https://github.com/patrickfav/uber-apk-signer/releases/download/v1.2.1/uber-apk-signer-1.2.1.jar -O uber-apk-signer.jar
-      #     chmod +x apktool
-      #     mv apktool /usr/local/bin/
-      #     mv apktool.jar /usr/local/bin/
 
       - name: Decode and write keystore
         run: |
@@ -45,9 +28,6 @@ jobs:
 
       - name: Build APK using apktool
         run: apktool b ./ -o edulink-unsigned.apk
-
-      - name: Check dir
-        run: ls /usr/local/bin/
 
       - name: Sign the APK
         run: |
@@ -59,13 +39,7 @@ jobs:
             --ksKeyPass "$KEYSTORE_PASSWORD"
 
       - name: Rename signed APK
-        run: mv edulink-aligned-signed.apk edulink.apk
-
-      # - name: Install Rust and git-cliff
-      #   run: |
-      #     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-      #     source $HOME/.cargo/env
-      #     cargo install git-cliff --locked
+        run: mv edulink-aligned-signed.apk ../edulink.apk
 
       - name: Set dynamic tag
         id: tag
