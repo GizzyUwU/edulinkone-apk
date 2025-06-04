@@ -1,12 +1,10 @@
-# Simple workflow for deploying static content to GitHub Pages
 name: Deploy EdulinkOne to Github Pages
-
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
     paths:
         - 'web/**'
+        - '.github/workflows/gh-pages.yaml'
   workflow_dispatch:
 
 permissions:
@@ -14,14 +12,11 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -32,10 +27,13 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Add ?v= to external files to update files
+        run: |
+          version=$(git rev-parse --short HEAD)
+          sed -i "s|href=\"\(.*\.css\)\"|href=\"\1?v=$version\"|g; s|src=\"\(.*\.js\)\"|src=\"\1?v=$version\"|g" web/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
           path: './web'
       - name: Deploy to GitHub Pages
         id: deployment
