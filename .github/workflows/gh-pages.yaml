@@ -1,12 +1,12 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy EdulinkOne to Github Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
     paths:
-        - 'assets/www/**'
+        - 'web/**'
   workflow_dispatch:
 
 permissions:
@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './assets/www'
+          path: './web'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
