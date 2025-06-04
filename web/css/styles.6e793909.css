@@ -9337,7 +9337,7 @@ label > * {
     margin-left: auto;
 }
 .events-forms__content {
-    background: #fff;
+    background: rgb(24, 26, 27);
     border-radius: 5px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
     display: flex;
@@ -12203,7 +12203,7 @@ behaviour .container {
 }
 .jNeTNMf7OGjPMAQn5vMH {
     align-items: center;
-    color: #3090c7;P
+    color: #3090c7;
     display: flex;
     flex-grow: 1;
     font-size: 1.2rem;
@@ -12764,20 +12764,20 @@ behaviour .container {
 .A4FukPsbAmvEPrhFnq4u.jwtBQakBLEIzNicOHL2x.CksmuXEZk4vpUeZnwBps {
     border-color: #3090c7;
     color: #3090c7;
-}
+    }
 .KTUZD6Hc4BJvgjaryUcn,
 .M7CvbicgxVciDrVmFg6q {
     height: 100%;
 }
 .jzscvZ4FILDY10OfwLAY.V0Xbsxojle_mO4oiaLJS {
-    /* background-color: #dcf9d9; */
+    background-color: rgba(0,128,0,0.1);
 }
 .jzscvZ4FILDY10OfwLAY.V0Xbsxojle_mO4oiaLJS .N5vNHnrwPlPkt0QauN5U {
     color: #3cb878;
     font-weight: 700;
 }
 .jzscvZ4FILDY10OfwLAY.lkXM1r1oasfWMD2hiyyw {
-    background-color: #f9e2e2;
+    background-color: rgba(220,20,60,0.1);
 }
 .jzscvZ4FILDY10OfwLAY.lkXM1r1oasfWMD2hiyyw .N5vNHnrwPlPkt0QauN5U {
     color: #ed5a57;
@@ -28423,6 +28423,7 @@ f-add-teachers {
     font-size: 18px;
     margin-bottom: 20px;
     text-align: center;
+    color: white;
 }
 .f-confirm__button {
     display: flex;
@@ -38761,7 +38762,7 @@ ul.l-marksheets__list {
     width: calc(100% - 20px);
 }
 .l-messages__item._active {
-    background: #f8fafb;
+    background: rgba(255,255,255,0.1);
 }
 .l-messages__photos {
     flex-basis: 54px;
@@ -57650,3 +57651,4 @@ t-medical-tests {
 .btn-tree-state__item:not(._active):hover {
     opacity: 1;
 }
+
