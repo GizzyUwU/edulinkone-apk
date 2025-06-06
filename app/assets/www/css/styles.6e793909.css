@@ -28,7 +28,7 @@
     width: 1px !important;
 }
 .ui-select-choices-row:hover {
-    background-color: #f5f5f5;
+    background-color: rgba(255,255,255,0.2);
 }
 .ng-dirty.ng-invalid > a.select2-choice {
     border-color: #d44950;
@@ -480,7 +480,7 @@ body > .ui-select-bootstrap.open {
     right: 0;
 }
 .selectize-dropdown {
-    background: #fff;
+    background: rgb(24, 26, 27);
     border: 1px solid #d0d0d0;
     border-radius: 0 0 3px 3px;
     border-top: 0;
@@ -506,13 +506,13 @@ body > .ui-select-bootstrap.open {
     border-top: 0;
 }
 .selectize-dropdown .optgroup-header {
-    background: #fff;
+    background: rgb(24, 26, 27);
     color: #303030;
     cursor: default;
 }
 .selectize-dropdown .active {
-    background-color: #f5fafd;
-    color: #495c68;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
 }
 .selectize-dropdown .active.create {
     color: #495c68;
@@ -57651,4 +57651,3 @@ t-medical-tests {
 .btn-tree-state__item:not(._active):hover {
     opacity: 1;
 }
-
